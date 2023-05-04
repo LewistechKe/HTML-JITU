@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Types and Attributes</title>
+</head>
+<body>
+	<h1>Form Input Types and Attributes</h1>
+
+	<!-- Text Input -->
+	<label for="text-input">Text Input:</label> 
+	<input type="text" id="text-input" name="text-input" placeholder="Enter text here" pattern="[a-zA-Z]+" minlength="3" maxlength="10">
+<br>
+	<!-- Email Input -->
+	<label for="email-input">Email Input:</label>
+	<input type="email" id="email-input" name="email-input" placeholder="Enter email address" required>
+<br>
+	<!-- Password Input -->
+	<label for="password-input">Password Input:</label>
+	<input type="password" id="password-input" name="password-input" minlength="8" required>
+ <br>
+	<!-- Number Input -->
+	<label for="number-input">Number Input:</label>
+	<input type="number" id="number-input" name="number-input" min="0" max="100" required>
+ <br>
+	<!-- Date Input -->
+	<label for="date-input">Date Input:</label>
+	<input type="date" id="date-input" name="date-input" required><br>
+<br>
+	<!-- Time Input -->
+	<label for="time-input">Time Input:</label>
+	<input type="time" id="time-input" name="time-input" required>
+<br>
+	<!-- Checkbox Input -->
+	<label for="checkbox-input">Checkbox Input:</label>
+	<input type="checkbox" id="checkbox-input" name="checkbox-input">
+<br>
+	<!-- Radio Input -->
+	<label>Radio Input:</label>
+	<label for="radio-input1">Option 1:</label>
+	<input type="radio" id="radio-input1" name="radio-input" value="option1">
+	<label for="radio-input2">Option 2:</label>
+	<input type="radio" id="radio-input2" name="radio-input" value="option2">
+ <br>
+	<!-- Select Input -->
+	<label for="select-input">Select Input:</label> <br>
+	<select id="select-input" name="select-input" multiple>
+		<option value="option1">Option 1</option>
+		<option value="option2">Option 2</option>
+		<option value="option3">Option 3</option>
+	</select>
+<br>
+	<!-- Textarea Input -->
+	<label for="textarea-input">Textarea Input:</label> <br>
+	<textarea id="textarea-input" name="textarea-input" placeholder="Enter text here" rows="4" cols="50"></textarea>
+</body>
+</html>
